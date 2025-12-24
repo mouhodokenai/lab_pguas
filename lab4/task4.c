@@ -18,7 +18,7 @@ int main() {
 
     int max = Mat[0][0];
     for (int i = 0; i < n; i++) {
-        for (int j = i; j < n; j++) {  
+        for (int j = i; j < m; j++) {  
             if (Mat[i][j] > max) {
                 max = Mat[i][j];
             }
@@ -29,3 +29,4 @@ int main() {
 
 
 }
+
